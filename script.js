@@ -130,7 +130,7 @@ function highlightWinningCells(combination) {
       ];
       gameEnded = false;
     
-      // Clear the board UI
+      // Clear the board 
       const cells = document.getElementsByClassName("cell");
       for (let i = 0; i < cells.length; i++) {
         cells[i].textContent = "";
